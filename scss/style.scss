@@ -5,7 +5,7 @@ button {
 }
 
 body {
-	font-family: Montserrat;
+	font-family: Montserrat, sans-serif;
 	font-size: 16px;
 }
 
@@ -981,7 +981,7 @@ input[name="r"] {
 	h1 {
 		text-align: left;
 
-		margin: 0px 0px 50px 0px;
+		margin: 0px 0px 20px 0px;
 	}
 }
 
@@ -989,6 +989,7 @@ input[name="r"] {
 	.popup_content {
 		transform: scale(0.7);
 		padding: 10px;
+		margin-top: -150px;
 	}
 	
 	.reg_form, 
@@ -1030,9 +1031,10 @@ input[name="r"] {
 
 	max-width: 600px;
 	padding: 30px;
+	margin-top: -100px;
 
 	position: relative;
-	top: 100px;
+	top: 80px;
 
 	border-radius: 10px;
 
@@ -1073,7 +1075,7 @@ label {
 
 input {
 	padding: 10px;
-	margin: 5px 10px 20px 10px;
+	margin: 5px 10px 10px 10px;
 	background-color: #21d2cc;
 	border-radius: 2px;
 }
